@@ -24,7 +24,7 @@ function filter_the_content( string $content ) : string {
         } else {
           $timer = " minutes";
         }
-        $content = 'Temps de lecture : '.$readingtime. $timer. $content;
+        $content = '<p class="timeRead">Temps de lecture : '.$readingtime. $timer. $content.'</p>';
     }
    
     return $content;
